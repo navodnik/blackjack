@@ -1,0 +1,66 @@
+
+* {
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+button {
+    background-color: #c1121f;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ab111b;
+    padding: 21px;
+}
+
+#hit-btn {
+    padding: 20px 30px;
+}
+
+#hit-btn:hover {
+    padding: 21px 31px;
+}
+
+.hide {
+    display: none;
+    cursor: none;
+}
+
+#player-numbers, #dealer-numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#player-sum-render, #dealer-sum-render {
+    color:#c1121f;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.end {
+    background-color: grey;
+    cursor: default;
+}
+
+.end:hover {
+    background-color: grey;
+}
